@@ -6,7 +6,38 @@
     <title>Biodata</title>
 </head>
 <body>
-    --//isi dengan data kalian//--
-
+x    <h1>Biodata</h1>
+    <form method="post" action="#">
+        <table>
+            <tr>
+                <td> Nama </td> <td> : </td> <td> <input type="text" name="nama" value="Siti Dzenab Nur Alifh"> </td>
+            </tr>
+            <tr>
+                <td> NPM </td> <td> : </td> <td> <input type="text" name="NPM" value="5520125102"> </td>
+            </tr>
+            <tr>
+                <td> Kelas </td> <td> : </td> <td> 
+                    <select name="kelas"> 
+                        <option>--pilih kelas--</option>
+                        <option value="A">Kelas A</option>
+                        <option value="B">Kelas B</option>
+                        <option value="C">Kelas C</option>
+                        <option value="IFE 25" selected>IFE 25</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> Jenis Kelamin </td> <td> : </td>
+                <td>
+                    <input type="radio" name="jenisKelamin" value="pria" checked>Pria
+                    <input type="radio" name="jenisKelamin" value="wanita">Wanita
+                </td>
+            </tr>
+        </table>
+        Apakah data yang anda masukan benar?
+        <input type="checkbox" value="benar" checked> <br>
+        <input type="submit" value="Submit"> 
+        <input type="reset" value="Cancel">
+    </form>
 </body>
 </html>
